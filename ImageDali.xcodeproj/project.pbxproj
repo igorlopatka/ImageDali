@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456A83D72AA614DE00B9C94E /* ImageDaliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83D62AA614DE00B9C94E /* ImageDaliApp.swift */; };
+		456A83D92AA614DE00B9C94E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83D82AA614DE00B9C94E /* ContentView.swift */; };
+		456A83DB2AA614E000B9C94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456A83DA2AA614E000B9C94E /* Assets.xcassets */; };
+		456A83DE2AA614E000B9C94E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456A83DD2AA614E000B9C94E /* Preview Assets.xcassets */; };
+		456A83E02AA614E000B9C94E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83DF2AA614E000B9C94E /* Persistence.swift */; };
+		456A83E32AA614E000B9C94E /* ImageDali.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 456A83E12AA614E000B9C94E /* ImageDali.xcdatamodeld */; };
+		456A83EE2AA614E000B9C94E /* ImageDaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83ED2AA614E000B9C94E /* ImageDaliTests.swift */; };
+		456A83F82AA614E000B9C94E /* ImageDaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83F72AA614E000B9C94E /* ImageDaliUITests.swift */; };
+		456A83FA2AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83F92AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		456A83EA2AA614E000B9C94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456A83CB2AA614DE00B9C94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456A83D22AA614DE00B9C94E;
+			remoteInfo = ImageDali;
+		};
+		456A83F42AA614E000B9C94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456A83CB2AA614DE00B9C94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456A83D22AA614DE00B9C94E;
+			remoteInfo = ImageDali;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		456A83D32AA614DE00B9C94E /* ImageDali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456A83D62AA614DE00B9C94E /* ImageDaliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDaliApp.swift; sourceTree = "<group>"; };
+		456A83D82AA614DE00B9C94E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		456A83DA2AA614E000B9C94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456A83DD2AA614E000B9C94E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		456A83DF2AA614E000B9C94E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		456A83E22AA614E000B9C94E /* ImageDali.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageDali.xcdatamodel; sourceTree = "<group>"; };
+		456A83E42AA614E000B9C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456A83E92AA614E000B9C94E /* ImageDaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456A83ED2AA614E000B9C94E /* ImageDaliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDaliTests.swift; sourceTree = "<group>"; };
+		456A83F32AA614E000B9C94E /* ImageDaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456A83F72AA614E000B9C94E /* ImageDaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDaliUITests.swift; sourceTree = "<group>"; };
+		456A83F92AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDaliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456A83D02AA614DE00B9C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A83E62AA614E000B9C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A83F02AA614E000B9C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456A83CA2AA614DE00B9C94E = {
+			isa = PBXGroup;
+			children = (
+				456A83D52AA614DE00B9C94E /* ImageDali */,
+				456A83EC2AA614E000B9C94E /* ImageDaliTests */,
+				456A83F62AA614E000B9C94E /* ImageDaliUITests */,
+				456A83D42AA614DE00B9C94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		456A83D42AA614DE00B9C94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456A83D32AA614DE00B9C94E /* ImageDali.app */,
+				456A83E92AA614E000B9C94E /* ImageDaliTests.xctest */,
+				456A83F32AA614E000B9C94E /* ImageDaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456A83D52AA614DE00B9C94E /* ImageDali */ = {
+			isa = PBXGroup;
+			children = (
+				456A83D62AA614DE00B9C94E /* ImageDaliApp.swift */,
+				456A83D82AA614DE00B9C94E /* ContentView.swift */,
+				456A83DA2AA614E000B9C94E /* Assets.xcassets */,
+				456A83DF2AA614E000B9C94E /* Persistence.swift */,
+				456A83E42AA614E000B9C94E /* Info.plist */,
+				456A83E12AA614E000B9C94E /* ImageDali.xcdatamodeld */,
+				456A83DC2AA614E000B9C94E /* Preview Content */,
+			);
+			path = ImageDali;
+			sourceTree = "<group>";
+		};
+		456A83DC2AA614E000B9C94E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				456A83DD2AA614E000B9C94E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		456A83EC2AA614E000B9C94E /* ImageDaliTests */ = {
+			isa = PBXGroup;
+			children = (
+				456A83ED2AA614E000B9C94E /* ImageDaliTests.swift */,
+			);
+			path = ImageDaliTests;
+			sourceTree = "<group>";
+		};
+		456A83F62AA614E000B9C94E /* ImageDaliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				456A83F72AA614E000B9C94E /* ImageDaliUITests.swift */,
+				456A83F92AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift */,
+			);
+			path = ImageDaliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456A83D22AA614DE00B9C94E /* ImageDali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456A83FD2AA614E000B9C94E /* Build configuration list for PBXNativeTarget "ImageDali" */;
+			buildPhases = (
+				456A83CF2AA614DE00B9C94E /* Sources */,
+				456A83D02AA614DE00B9C94E /* Frameworks */,
+				456A83D12AA614DE00B9C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDali;
+			productName = ImageDali;
+			productReference = 456A83D32AA614DE00B9C94E /* ImageDali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		456A83E82AA614E000B9C94E /* ImageDaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456A84002AA614E000B9C94E /* Build configuration list for PBXNativeTarget "ImageDaliTests" */;
+			buildPhases = (
+				456A83E52AA614E000B9C94E /* Sources */,
+				456A83E62AA614E000B9C94E /* Frameworks */,
+				456A83E72AA614E000B9C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456A83EB2AA614E000B9C94E /* PBXTargetDependency */,
+			);
+			name = ImageDaliTests;
+			productName = ImageDaliTests;
+			productReference = 456A83E92AA614E000B9C94E /* ImageDaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		456A83F22AA614E000B9C94E /* ImageDaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456A84032AA614E000B9C94E /* Build configuration list for PBXNativeTarget "ImageDaliUITests" */;
+			buildPhases = (
+				456A83EF2AA614E000B9C94E /* Sources */,
+				456A83F02AA614E000B9C94E /* Frameworks */,
+				456A83F12AA614E000B9C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456A83F52AA614E000B9C94E /* PBXTargetDependency */,
+			);
+			name = ImageDaliUITests;
+			productName = ImageDaliUITests;
+			productReference = 456A83F32AA614E000B9C94E /* ImageDaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456A83CB2AA614DE00B9C94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					456A83D22AA614DE00B9C94E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					456A83E82AA614E000B9C94E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 456A83D22AA614DE00B9C94E;
+					};
+					456A83F22AA614E000B9C94E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 456A83D22AA614DE00B9C94E;
+					};
+				};
+			};
+			buildConfigurationList = 456A83CE2AA614DE00B9C94E /* Build configuration list for PBXProject "ImageDali" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456A83CA2AA614DE00B9C94E;
+			productRefGroup = 456A83D42AA614DE00B9C94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456A83D22AA614DE00B9C94E /* ImageDali */,
+				456A83E82AA614E000B9C94E /* ImageDaliTests */,
+				456A83F22AA614E000B9C94E /* ImageDaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456A83D12AA614DE00B9C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456A83DE2AA614E000B9C94E /* Preview Assets.xcassets in Resources */,
+				456A83DB2AA614E000B9C94E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A83E72AA614E000B9C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A83F12AA614E000B9C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456A83CF2AA614DE00B9C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456A83E02AA614E000B9C94E /* Persistence.swift in Sources */,
+				456A83D92AA614DE00B9C94E /* ContentView.swift in Sources */,
+				456A83D72AA614DE00B9C94E /* ImageDaliApp.swift in Sources */,
+				456A83E32AA614E000B9C94E /* ImageDali.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A83E52AA614E000B9C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456A83EE2AA614E000B9C94E /* ImageDaliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456A83EF2AA614E000B9C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456A83FA2AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift in Sources */,
+				456A83F82AA614E000B9C94E /* ImageDaliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456A83EB2AA614E000B9C94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456A83D22AA614DE00B9C94E /* ImageDali */;
+			targetProxy = 456A83EA2AA614E000B9C94E /* PBXContainerItemProxy */;
+		};
+		456A83F52AA614E000B9C94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456A83D22AA614DE00B9C94E /* ImageDali */;
+			targetProxy = 456A83F42AA614E000B9C94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		456A83FB2AA614E000B9C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		456A83FC2AA614E000B9C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456A83FE2AA614E000B9C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageDali/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A7T62L69W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorlopatka.ImageDali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		456A83FF2AA614E000B9C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageDali/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A7T62L69W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorlopatka.ImageDali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		456A84012AA614E000B9C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A7T62L69W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorlopatka.ImageDaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDali.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageDali";
+			};
+			name = Debug;
+		};
+		456A84022AA614E000B9C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A7T62L69W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorlopatka.ImageDaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDali.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageDali";
+			};
+			name = Release;
+		};
+		456A84042AA614E000B9C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A7T62L69W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorlopatka.ImageDaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageDali;
+			};
+			name = Debug;
+		};
+		456A84052AA614E000B9C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A7T62L69W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorlopatka.ImageDaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageDali;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456A83CE2AA614DE00B9C94E /* Build configuration list for PBXProject "ImageDali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456A83FB2AA614E000B9C94E /* Debug */,
+				456A83FC2AA614E000B9C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456A83FD2AA614E000B9C94E /* Build configuration list for PBXNativeTarget "ImageDali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456A83FE2AA614E000B9C94E /* Debug */,
+				456A83FF2AA614E000B9C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456A84002AA614E000B9C94E /* Build configuration list for PBXNativeTarget "ImageDaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456A84012AA614E000B9C94E /* Debug */,
+				456A84022AA614E000B9C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456A84032AA614E000B9C94E /* Build configuration list for PBXNativeTarget "ImageDaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456A84042AA614E000B9C94E /* Debug */,
+				456A84052AA614E000B9C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		456A83E12AA614E000B9C94E /* ImageDali.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				456A83E22AA614E000B9C94E /* ImageDali.xcdatamodel */,
+			);
+			currentVersion = 456A83E22AA614E000B9C94E /* ImageDali.xcdatamodel */;
+			path = ImageDali.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 456A83CB2AA614DE00B9C94E /* Project object */;
+}

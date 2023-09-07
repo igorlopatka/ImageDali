@@ -18,6 +18,7 @@
 		45FB00F22AA9FFDB003F50FD /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F12AA9FFDB003F50FD /* OpenAIService.swift */; };
 		45FB00F42AAA000E003F50FD /* OpenAIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F32AAA000E003F50FD /* OpenAIEndPoint.swift */; };
 		45FB00F62AAA01A0003F50FD /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F52AAA01A0003F50FD /* APIKey.swift */; };
+		45FB00F92AAA22C2003F50FD /* DALLEResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F82AAA22C2003F50FD /* DALLEResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		45FB00F12AA9FFDB003F50FD /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		45FB00F32AAA000E003F50FD /* OpenAIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIEndPoint.swift; sourceTree = "<group>"; };
 		45FB00F52AAA01A0003F50FD /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		45FB00F82AAA22C2003F50FD /* DALLEResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALLEResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				45FB00F52AAA01A0003F50FD /* APIKey.swift */,
+				45FB00F82AAA22C2003F50FD /* DALLEResponse.swift */,
 				45FB00F32AAA000E003F50FD /* OpenAIEndPoint.swift */,
 				45FB00F12AA9FFDB003F50FD /* OpenAIService.swift */,
 			);
@@ -284,6 +287,7 @@
 				456A83D72AA614DE00B9C94E /* ImageDaliApp.swift in Sources */,
 				456A83E32AA614E000B9C94E /* ImageDali.xcdatamodeld in Sources */,
 				45FB00F62AAA01A0003F50FD /* APIKey.swift in Sources */,
+				45FB00F92AAA22C2003F50FD /* DALLEResponse.swift in Sources */,
 				45FB00F22AA9FFDB003F50FD /* OpenAIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

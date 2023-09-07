@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum OpenAIEndpoint: String{
+enum OpenAIEndpoint: String {
     
     private var baseURL: String { return "https://api.openai.com/v1/images/" }
     
@@ -15,9 +15,9 @@ enum OpenAIEndpoint: String{
     case edits
     
     var url: URL {
-            guard let url = URL(string: baseURL) else {
-                preconditionFailure("The url is not valid")
-            }
-            return url.appendingPathComponent(self.rawValue)
+        guard let url = URL(string: baseURL) else {
+            preconditionFailure("The url is not valid")
+        }
+        return url.appendingPathComponent(self.rawValue)
     }
 }

@@ -6,12 +6,49 @@
 //
 
 import SwiftUI
-import CoreData
 
 struct ContentView: View {
-
+    
+    @ObservedObject var service = OpenAIService()
+    
+    @State var photos: [Photo] = []
+    @State private var prompt: String = ""
+    
     var body: some View {
-        Text("Hello World!")
+        VStack {
+            List {
+                ForEach(photos, id: \.url) { photo in
+                    
+                    AsyncImage(url: URL(string: photo.url)) { image in
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        
+                    } placeholder: {
+                        
+                        Image(systemName: "photo.fill")
+                        
+                    }.frame(maxWidth: .infinity, maxHeight: 500)
+                        .listRowInsets(.init(.zero))
+                }
+            }
+            
+            TextField("Enter the prompt", text: $prompt)
+                .padding()
+            
+            Button(action: runOpenAIGeneration, label: {Text("Generate Text From Prompt")})
+        }
+        .padding()
+    }
+    
+    func runOpenAIGeneration(){
+        Task{
+            do{
+                self.photos = try await service.generateImage(from: prompt)
+            }catch(let error){
+                print(error)
+            }
+        }
     }
 }
 

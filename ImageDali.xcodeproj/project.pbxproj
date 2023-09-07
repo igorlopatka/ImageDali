@@ -15,6 +15,9 @@
 		456A83EE2AA614E000B9C94E /* ImageDaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83ED2AA614E000B9C94E /* ImageDaliTests.swift */; };
 		456A83F82AA614E000B9C94E /* ImageDaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83F72AA614E000B9C94E /* ImageDaliUITests.swift */; };
 		456A83FA2AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A83F92AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift */; };
+		45FB00F22AA9FFDB003F50FD /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F12AA9FFDB003F50FD /* OpenAIService.swift */; };
+		45FB00F42AAA000E003F50FD /* OpenAIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F32AAA000E003F50FD /* OpenAIEndPoint.swift */; };
+		45FB00F62AAA01A0003F50FD /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB00F52AAA01A0003F50FD /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		456A83F32AA614E000B9C94E /* ImageDaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456A83F72AA614E000B9C94E /* ImageDaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDaliUITests.swift; sourceTree = "<group>"; };
 		456A83F92AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDaliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45FB00F12AA9FFDB003F50FD /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		45FB00F32AAA000E003F50FD /* OpenAIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIEndPoint.swift; sourceTree = "<group>"; };
+		45FB00F52AAA01A0003F50FD /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				456A83D62AA614DE00B9C94E /* ImageDaliApp.swift */,
+				45FB00F72AAA01CC003F50FD /* OpenAI API */,
 				456A83D82AA614DE00B9C94E /* ContentView.swift */,
 				456A83DA2AA614E000B9C94E /* Assets.xcassets */,
 				456A83E42AA614E000B9C94E /* Info.plist */,
@@ -130,6 +137,16 @@
 				456A83F92AA614E000B9C94E /* ImageDaliUITestsLaunchTests.swift */,
 			);
 			path = ImageDaliUITests;
+			sourceTree = "<group>";
+		};
+		45FB00F72AAA01CC003F50FD /* OpenAI API */ = {
+			isa = PBXGroup;
+			children = (
+				45FB00F52AAA01A0003F50FD /* APIKey.swift */,
+				45FB00F32AAA000E003F50FD /* OpenAIEndPoint.swift */,
+				45FB00F12AA9FFDB003F50FD /* OpenAIService.swift */,
+			);
+			path = "OpenAI API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				456A83D92AA614DE00B9C94E /* ContentView.swift in Sources */,
+				45FB00F42AAA000E003F50FD /* OpenAIEndPoint.swift in Sources */,
 				456A83D72AA614DE00B9C94E /* ImageDaliApp.swift in Sources */,
 				456A83E32AA614E000B9C94E /* ImageDali.xcdatamodeld in Sources */,
+				45FB00F62AAA01A0003F50FD /* APIKey.swift in Sources */,
+				45FB00F22AA9FFDB003F50FD /* OpenAIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
